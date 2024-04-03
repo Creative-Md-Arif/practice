@@ -384,3 +384,270 @@
 
 
 // console.log(addFive());
+
+
+// Use Conditional Logic with If Statements
+
+
+// function trueOrFalse(wasThatTrue) {
+
+//     if(wasThatTrue){
+//       return "Yes, that was true";
+//     }
+//     return "No that was false";
+    
+    
+//     }
+//     trueOrFalse(true);
+//     trueOrFalse(false);
+
+
+/* ================================ */
+
+// ====
+
+
+// typeof function start
+
+
+// let test = null; // null
+
+// alert (typeof test);// object
+
+// test = String(test);//"null"
+
+// alert(typeof test);//string
+
+// ====
+
+// let price = "100"
+
+// alert(typeof price);
+// price = Number(price);
+
+// console.log(typeof price);
+
+// let price = prompt("")
+
+// alert (typeof price);
+
+/* ===== */
+
+// let price = 100; // number to string convert
+
+// console.log(typeof price);
+
+// let newPrice = String(price);
+
+// console.log(typeof newPrice);
+
+/* ======  */
+
+// let test = null; // null to convert string
+
+// console.log(typeof test);  // null this is typeof object
+
+// let testFinal = String(test);
+
+// console.log(typeof testFinal);
+
+/*  ***** */
+
+// let test = undefined; // undefind convert to string
+
+// console.log(typeof test);
+
+// let testFinal = String(test);
+
+// console.log(typeof testFinal);
+
+/* **** */
+
+// let test = true; // boolean con vert to string
+
+// console.log(typeof true);
+
+// let testFinal = String(test);
+
+// console.log(typeof testFinal);
+
+/* ******* */
+
+// let num1 = "100"; //string to convert number
+
+// console.log(typeof num1); //string
+
+// let num2 = Number(num1);// convert to number
+
+// console.log(typeof num2);//result number
+
+/* ****** */
+
+// let num1 = null; // null to convert object
+
+// console.log(typeof null); // object
+
+// let num2 = Number (num1);//convert to number
+
+// // console.log(typeof num2);//result number
+
+// alert(typeof num2);
+
+//********
+
+// let unde = undefined; //undefind to convert  number
+
+// console.log(typeof unde); //result  undefind
+
+// let unde1 = Number(unde);//convert  number  function
+
+// alert(typeof unde1); // result number
+
+// ************
+
+// let num1 = "30"; // string
+// let numNumber = Number(num1) // convert number
+
+// let num2 = "10"; // string
+
+// let numNumber2 = Number(num2) // convert number
+
+// console.log(numNumber / numNumber2);  // result
+
+// console.log (typeof (numNumber / numNumber2));//check value
+
+//=======
+
+// let num1 = Number("30"); // string //30
+
+// let num2 = Number("10"); // string//10
+
+// console.log(num1 / num2);  // result
+
+// console.log (typeof (num1 / num2)); //check value
+
+// =======
+
+// let num = Number("");
+
+// console.log(num);
+
+// console.log(typeof num);
+
+//===
+
+// let price = " ";
+
+// let newPrice = Boolean(price); //ture
+
+// console.log(newPrice); //true
+
+// console.log(typeof newPrice); // Boolean
+
+// "raj" / 1 / 100 / --true
+
+// "0" --- true
+
+// ""  --- false
+
+// " " --- true
+
+//====
+
+// null / undefined / NaN / "" / 0 --- //convert to Boolean false value
+
+
+/* ===============================
+   | Javascript Operator
+   ============================== */
+
+
+
+// let fNam = 5;
+
+// fNam = -fNam; // -negation oparator / unary oparetor
+
+// console.log(fNam);
+
+//======
+
+// let firstNumber = 5;
+
+// let secondNumber = 2;
+
+// let result = firstNumber + secondNumber;
+
+// console.log(result);
+
+//=====
+
+// let firstNumber = 5;
+
+// let secondNumber = 2;
+
+// let result = firstNumber * secondNumber;
+
+// console.log(result);
+
+//====
+
+// let firstNumber = 5;
+
+// let secondNumber = 2;
+
+// let result = firstNumber / secondNumber;
+
+// console.log(result);
+
+//======
+
+
+
+// let firstNumber = 5;
+
+// let secondNumber = 2;
+
+// let result = firstNumber % secondNumber;
+
+// console.log(result);
+
+
+//===
+
+// let firstNumber = 5;
+
+// let secondNumber = 3;
+
+// let result = firstNumber ** secondNumber; //** Exponentiation
+
+
+// console.log(result);
+
+
+/* =============================
+   Javascript Concatenation
+   =============================*/
+
+
+//    let result = "hello " + "arif mohammad " + "how are you";
+
+//    console.log(result);
+
+
+// let result = 5 + 7 + "2";// result 122
+
+// console.log(typeof result);
+
+// console.log(result);
+
+
+/* =============================
+   Unary + Explain 
+   ============================= */
+
+
+
+//    let num = 2;
+
+
+//    let  num2 = +2;
