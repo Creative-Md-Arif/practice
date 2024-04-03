@@ -651,3 +651,12 @@
 
 
 //    let  num2 = +2;
+
+
+
+
+// let num = 10;
+
+// let num1 = 20;
+
+// console.log(10+20);
