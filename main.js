@@ -1,5 +1,9 @@
 // let FCC = "freeCOdeCamo";
 
+/* ===============================
+   variable 
+   ==============================*/
+
 // let Fact = "is awesome!";
 
 // console.log(FCC , Fact);
@@ -200,13 +204,11 @@
 
 // console.log(teams);
 
-
 // const myArray = [50, 60, 70];
 
 // const myData = (myArray [2]);
 
 // console.log(myData);
-
 
 // const ourArray = [50, 40, 30];
 
@@ -221,9 +223,8 @@
 //     [7, 8, 9],
 //     [[10, 11, 12], 13, 14],
 //   ];
-  
-//   const myData = myArray[2][1];
 
+//   const myData = myArray[2][1];
 
 // const myArray = [["John", 23], ["cat", 2]];
 
@@ -231,14 +232,11 @@
 
 // console.log(myArray);
 
-
 // const myArray = [["John", 23], ["cat", 2]];
-
 
 // myArray.push = (["bangladesh", "lalala", 20])
 
 // console.log(myArray);
-
 
 // const myArray = [["john", 23], ["cat", 2]];
 
@@ -263,18 +261,15 @@
 
 // console.log(myList);
 
-
 // function reusableFunction (){
 //     console.log("Hi World");
 //   }
 
 //   reusableFunction();
 
-
 // function  functionWithArgs(item1,item2) {
 //     console.log(item1 + item2);
 // }
-
 
 // functionWithArgs(1,2);
 
@@ -282,23 +277,16 @@
 //     console.log(a + b);
 // }
 
-
 // functionWithArgs(7,9);
-
 
 // function plusThree (num) {
 //     return num + 3 ;
 
 // }
 
-
 // const answer = plusThree(5);
 
-
 // console.log(plusThree);
-
-
-
 
 // function timesFive (gun){
 //     return gun * 5
@@ -308,7 +296,6 @@
 
 // console.log(answer);
 
-
 // function timesFive1 (gun){
 //     return gun * 2
 // }
@@ -316,7 +303,6 @@
 // const answer1 = timesFive1(5);
 
 // console.log(answer1);
-
 
 // function timesFive2 (gun){
 //     return gun * 0
@@ -326,17 +312,15 @@
 
 // console.log(answer2);
 
-
 // Declare the myGlobal variable below this line
-
 
 // function fun1() {
 //     // Assign 5 to oopsGlobal here
-  
+
 //   }
-  
+
 //   // Only change code above this line
-  
+
 //   function fun2() {
 //     let output = "";
 //     if (typeof myGlobal != "undefined") {
@@ -348,18 +332,16 @@
 //     console.log(output);
 //   }
 
-
 // function myLocalScope() {
 //     // Only change code below this line
-  
+
 //     console.log('inside myLocalScope', myVar);
 //   }
 //   myLocalScope();
-  
+
 //   // Run and check the console
 //   // myVar is not defined outside of myLocalScope
 //   console.log('outside myLocalScope', myVar);
-
 
 // var outerWear = "T-Shirt";
 
@@ -367,8 +349,6 @@
 //   var outerWear = "sweater";
 //   return outerWear;
 // }
-
-
 
 // console.log(myOutfit());
 
@@ -382,12 +362,9 @@
 //   sum += 5 ;
 // }
 
-
 // console.log(addFive());
 
-
 // Use Conditional Logic with If Statements
-
 
 // function trueOrFalse(wasThatTrue) {
 
@@ -395,20 +372,16 @@
 //       return "Yes, that was true";
 //     }
 //     return "No that was false";
-    
-    
+
 //     }
 //     trueOrFalse(true);
 //     trueOrFalse(false);
-
 
 /* ================================ */
 
 // ====
 
-
 // typeof function start
-
 
 // let test = null; // null
 
@@ -556,12 +529,9 @@
 
 // null / undefined / NaN / "" / 0 --- //convert to Boolean false value
 
-
 /* ===============================
    | Javascript Operator
    ============================== */
-
-
 
 // let fNam = 5;
 
@@ -601,8 +571,6 @@
 
 //======
 
-
-
 // let firstNumber = 5;
 
 // let secondNumber = 2;
@@ -610,7 +578,6 @@
 // let result = firstNumber % secondNumber;
 
 // console.log(result);
-
 
 //===
 
@@ -620,19 +587,15 @@
 
 // let result = firstNumber ** secondNumber; //** Exponentiation
 
-
 // console.log(result);
-
 
 /* =============================
    Javascript Concatenation
    =============================*/
 
-
 //    let result = "hello " + "arif mohammad " + "how are you";
 
 //    console.log(result);
-
 
 // let result = 5 + 7 + "2";// result 122
 
@@ -640,23 +603,123 @@
 
 // console.log(result);
 
-
 /* =============================
    Unary + Explain 
    ============================= */
 
-
-
 //    let num = 2;
 
-
 //    let  num2 = +2;
-
-
-
 
 // let num = 10;
 
 // let num1 = 20;
 
 // console.log(10+20);
+
+/* =======================
+
+jaqvascript Const 
+=========================*/
+
+/* =======================
+
+Operator Precedence 
+=========================*/
+
+// let nam = (2 + 3 * 4);
+
+// console.log(nam);
+
+// let num  = 3 * (2 + 2);
+
+// console.log(num);
+
+// let num = 3 + 2 -1 ;
+
+// console.log(num);
+
+// let num = 3 * 2 / 2 ;
+
+// console.log(num);
+
+// let num =( 3 + 2) * (5  + 2);
+
+// console.log(num);
+
+/* =======================
+     Assignment Operator 
+=========================*/
+
+// let num = 5;
+
+// let num1 = 6;
+
+// let num2 = 0;
+
+// let num3 = 5 + (num2 = num + num1);
+
+// console.log(num3);
+
+// let num;
+// let num1;
+// let num2;
+
+//  num = num1 = num2 = 2;
+
+//  console.log(num, num1, num2);
+
+/* =======================
+
+Increment & Decrement Operator (++ , --)
+prefix & Postfix 
+
+========================== */
+
+// let num = 0;
+
+// for (let num = 0; num < 10; num++) {
+//    const num = array[num];
+
+// }
+
+// console.log(num);
+
+/* loop While Loop  */
+
+// let counter = 0;
+
+// while (counter < 5) {
+//    // counter--;
+// //    console.log("hello");
+// // }
+
+
+
+
+// /* =======================
+
+// coma Operator
+
+// ======================*/
+
+
+// let num = (( 5 + 2),  7 + 2);
+
+
+// console.log(num);
+
+
+
+
+
+/* ===========================
+ comporision operator 
+
+ ===========================*/
+
+// > grether than
+
+// > grether  than
+
+// < les Than 
