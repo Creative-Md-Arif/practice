@@ -1,4 +1,4 @@
-// let FCC = "freeCOdeCamo";
+// let FCC = "freeCOdeCamp";
 
 /* ===============================
    variable 
@@ -40,13 +40,13 @@
 
 // console.log(product);
 
-// const dosomik = 4.4 / 2;
+// const desmoid = 4.4 / 2;
 
-// console.log(dosomik);
+// console.log(desmoid);
 
-//  const remaider = 10 % 40;
+//  const remainder = 10 % 40;
 
-//  console.log(remaider);
+//  console.log(remainder);
 
 // let a = 3;
 
@@ -426,7 +426,7 @@
 
 /*  ***** */
 
-// let test = undefined; // undefind convert to string
+// let test = undefined; // undefined convert to string
 
 // console.log(typeof test);
 
@@ -468,13 +468,13 @@
 
 //********
 
-// let unde = undefined; //undefind to convert  number
+// let undo = undefined; //undefined to convert  number
 
-// console.log(typeof unde); //result  undefind
+// console.log(typeof undo); //result  undefined
 
-// let unde1 = Number(unde);//convert  number  function
+// let undo1 = Number(undo);//convert  number  function
 
-// alert(typeof unde1); // result number
+// alert(typeof undo1); // result number
 
 // ************
 
@@ -511,7 +511,7 @@
 
 // let price = " ";
 
-// let newPrice = Boolean(price); //ture
+// let newPrice = Boolean(price); //true
 
 // console.log(newPrice); //true
 
@@ -535,7 +535,7 @@
 
 // let fNam = 5;
 
-// fNam = -fNam; // -negation oparator / unary oparetor
+// fNam = -fNam; // -negation operator / unary operator
 
 // console.log(fNam);
 
@@ -619,7 +619,7 @@
 
 /* =======================
 
-jaqvascript Const 
+javascript Const 
 =========================*/
 
 /* =======================
@@ -714,12 +714,95 @@ prefix & Postfix
 
 
 /* ===========================
- comporision operator 
+ comparison operator 
 
  ===========================*/
 
-// > grether than
+// > greater than
 
-// > grether  than
+// > greater  than
 
 // < les Than 
+
+
+/* ===========================
+ Even Odd Program 
+ ===========================*/
+// Way One 
+
+// let num = prompt ("Enter Number : ");
+
+// num = Number(num); // convert to number
+
+// let remainder = num % 2 ;
+
+// if ( remainder == 0 ) {
+//    alert( `${num} is Even Number`);
+
+// } else {
+
+//    alert(`${num} is Odd Number`);
+// }
+
+
+// Way Two 
+
+
+// let num1 = prompt ("Enter Number : ");
+
+// num1 = Number(num1); // convert to number
+
+// if ((  num1 % 2) == 0 ) {
+//    alert( `${num1} is Even Number`);
+
+// } else {
+
+//    alert(`${num1} is Odd Number`);
+// }
+
+
+
+/* ===========================
+  Ternary Operator /
+  Conditional Operator / 
+  Question Mark  Operator 
+ ===========================*/
+
+
+//  let userAccess;
+//  let username = prompt("Enter Your Name: ")
+
+//  if ( username == "sumon") {
+//      userAccess = "Admin";
+//  } else {
+//    userAccess = " Moderator";
+//  }
+
+//  alert(userAccess);
+
+
+ // Ternary Operator Syntax (expression) ? (value1) : (value2)
+
+//  let userAccess;
+//  let username = prompt("Enter Your Name: ")
+
+//  userAccess = (username == "sumon") ? "Admin" : " Moderator";
+
+//  alert(userAccess)
+
+/* ===========================
+   Logical operators 
+ ===========================*/
+
+//  || === OR OPERATOR
+
+// &&  ===  AND OPERATOR
+
+//  !   === Not OPERATOR
+
+// ?? === Null Coalescing OPERATOR
+
+/*  ========================== 
+
+ || OR Operator 
+ ===========================*/ 
